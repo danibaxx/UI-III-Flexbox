@@ -87,6 +87,7 @@ header nav a {
 
 ul {
 	list-style-type: square;
+	padding: 10px;
 }
 
 .one .top {
@@ -98,13 +99,19 @@ ul {
 	border-bottom: 1px solid black;
 }
 
+.top h2 {
+	font-size: 25px;
+}
+
 .one p {
 	margin-bottom: 30px;
 }
 
 .parent1 {
 	display:flex;
-	padding: 20px;
+	width: 880px;
+	height: 210px;
+	margin: 50px auto;
 }
 
 .child1 {
@@ -143,14 +150,26 @@ button {
 	color: black;
 	border: 1px solid black;
 	text-align: center;
-	letter-spacing: normal;
+	border-radius: 5px;
+	font-size: 11px;
+	padding: 10px 40px;
+	margin-top: 20px;
 }
-/*.eight {
+.eight {
 	border-top: 2px solid black;
 	margin-bottom: 20px; 
-} */
-.eight {
+}
+/* .eight {
 	border: 2px solid blue;
+} */
+
+footer {
+	display: flex;
+	flex-direction: column;
+}
+
+.p7 h2 {
+	padding: 35px 0 0 0px;
 }
 p.copyright {
 	text-align: center;
