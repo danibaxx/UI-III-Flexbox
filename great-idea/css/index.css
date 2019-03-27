@@ -104,27 +104,47 @@ ul {
 
 .parent1 {
 	display:flex;
+	padding: 20px;
 }
 
 .child1 {
-	border: 2px solid darkblue;
+	border: 1px solid black;
+	padding: 20px;
+	background: #f0f2f4;
 }
 .child2 {
-	border: 2px solid steelblue;
+	border: 1px solid black;
+	padding: 20px;
+	background: #f0f2f4;
 }
 .child3 {
-	border: 2px solid tomato;
+	border: 1px solid black;
+	padding: 20px;
+	background: #f0f2f4;
 }
 .child4 {
-	border: 2px solid greenyellow;
+	border: 1px solid black;
+	padding: 20px;
+	background: #f0f2f4;
 }
 .child5 {
-	border: 2px solid purple;
+	border: 1px solid black;
+	padding: 20px;
+	background: #f0f2f4;
 }
 .child6 {
-	border: 2px solid darkorange;
+	border: 1px solid black;
+	padding: 20px;
+	background: #f0f2f4;
 }
 
+button {
+	background: white;
+	color: black;
+	border: 1px solid black;
+	text-align: center;
+	letter-spacing: normal;
+}
 /*.eight {
 	border-top: 2px solid black;
 	margin-bottom: 20px; 
