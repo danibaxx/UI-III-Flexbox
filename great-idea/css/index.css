@@ -168,6 +168,10 @@ footer {
 	flex-direction: column;
 }
 
+.services-info-img {
+	align-self: flex-end;
+}
+
 .p7 h2 {
 	padding: 35px 0 0 0px;
 }
