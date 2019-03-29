@@ -65,17 +65,21 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+/* Styles across both .html docs */
 .container {
 	width: 880px;
-	margin: 0 auto;
-}
-header {
-	padding: 10px;
+	margin: auto;
 }
 
-nav {
+header {
+	width: 880px;
+}
+
+header nav {
 	display: flex;
 	justify-content: space-between;
+	margin-top: 40px;
+	width: 900px;
 }
 
 header nav a {
@@ -85,11 +89,7 @@ header nav a {
 	text-decoration: none;
 }
 
-ul {
-	list-style-type: square;
-	padding: 10px;
-}
-
+/* Styles for index.html */
 .one .top {
 	margin-top: 25px;
 }
@@ -107,42 +107,40 @@ ul {
 	margin-bottom: 30px;
 }
 
-.parent1 {
-	display:flex;
-	width: 880px;
-	height: 210px;
-	margin: 50px auto;
+/* Styles for services.html */
+img.logo1 {
+	padding: 12px;
 }
 
-.child1 {
-	border: 1px solid black;
-	padding: 20px;
-	background: #f0f2f4;
+ul {
+	list-style-type: square;
+	padding: 10px;
 }
-.child2 {
-	border: 1px solid black;
-	padding: 20px;
-	background: #f0f2f4;
+
+.st1 {
+	border-bottom: 1px solid black;
+	margin: 20px 0;
+	padding-bottom: 35px;
 }
-.child3 {
-	border: 1px solid black;
-	padding: 20px;
-	background: #f0f2f4;
+
+h1 {
+	font-size: 27px;
+	margin-top: 30px;
 }
-.child4 {
-	border: 1px solid black;
-	padding: 20px;
-	background: #f0f2f4;
+
+.p-container {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	line-height: 1.3;
 }
-.child5 {
+
+.child {
 	border: 1px solid black;
 	padding: 20px;
 	background: #f0f2f4;
-}
-.child6 {
-	border: 1px solid black;
-	padding: 20px;
-	background: #f0f2f4;
+	margin: 15px 0;
+	width: 420px;
 }
 
 button {
@@ -155,27 +153,29 @@ button {
 	padding: 10px 40px;
 	margin-top: 20px;
 }
+
 .eight {
 	border-top: 2px solid black;
-	margin-bottom: 20px; 
+	margin: 20px 0;
+	padding: 35px 0;
 }
-/* .eight {
-	border: 2px solid blue;
-} */
 
-footer {
+.p-container .eight {
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: column;
 }
 
-.services-info-img {
+.p-container .eight .services-info-img {
 	align-self: flex-end;
 }
 
-.p7 h2 {
-	padding: 35px 0 0 0px;
+.bottom p {
+	width: 420px;
 }
-p.copyright {
+
+footer {
+	padding: 35px 0 0 0px;
 	text-align: center;
 }
 
