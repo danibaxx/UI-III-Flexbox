@@ -146,7 +146,8 @@ img.logo1 {
 
 ul {
 	list-style-type: square;
-	padding: 10px;
+	padding: 16px;
+	line-height: 2;
 }
 
 .st1 {
@@ -190,21 +191,9 @@ button.b2 {
 	border-top: 2px solid black;
 	margin: 20px 0;
 	padding: 35px 0;
-}
-
-.p-container .eight {
 	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
 }
 
-.p-container .eight .services-info-img {
-	align-self: flex-end;
-}
-
-.bottom p {
-	width: 420px;
-}
 
 footer {
 	padding: 35px 0 0 0px;
