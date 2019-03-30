@@ -78,8 +78,9 @@ header {
 header nav {
 	display: flex;
 	justify-content: space-between;
-	margin-top: 40px;
+	margin-bottom: 25px;
 	width: 900px;
+	align-items: baseline;
 }
 
 header nav a {
@@ -90,21 +91,52 @@ header nav a {
 }
 
 /* Styles for index.html */
-.one .top {
-	margin-top: 25px;
+
+.parent1 {
+	display: flex;
+	padding: 35px 0;
+	justify-content: space-between;
+	align-items: center;
 }
 
-.one  {
-	margin: 30px 0;
-	border-bottom: 1px solid black;
+
+h1.index {
+	text-align: center;
+	font-size: 80px;
 }
 
-.top h2 {
-	font-size: 25px;
+.b1 {
+	border: 1px solid black;
+	background: white;
+	padding: 5px 40px;
+	font-size: 16px;
+	margin: 0 0 0 70px;
 }
 
-.one p {
-	margin-bottom: 30px;
+.parent2 {
+	display: flex;
+	border-top: 1px solid black;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.child2 {
+	width: 420px;
+	padding: 35px 0;
+}
+
+.parent3 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.child3 {
+	padding: 35px 5px 35px 0;
+}
+
+.contact {
+	border-top: 1px solid black;
+	padding: 30px 0;
 }
 
 /* Styles for services.html */
@@ -123,7 +155,7 @@ ul {
 	padding-bottom: 35px;
 }
 
-h1 {
+h1.sh1 {
 	font-size: 27px;
 	margin-top: 30px;
 }
@@ -143,7 +175,7 @@ h1 {
 	width: 420px;
 }
 
-button {
+button.b2 {
 	background: white;
 	color: black;
 	border: 1px solid black;
